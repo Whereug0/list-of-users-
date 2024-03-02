@@ -1,0 +1,33 @@
+select {
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(118deg,#7367F0,rgba(115,103,240,.7));
+  box-shadow: 0 0 10px 1px rgba(115,103,240,.7);
+  color: white;
+  list-style: none;
+  padding: 5px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+option {
+  color: black;
+}
+
+select:focus {
+  outline: none;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  select {
+    font-size: 10%;
+    width: 15%;
+    height: 30px;
+    box-shadow: 0 0 10px 1px rgba(115,103,240,.7);
+  }
+}
+

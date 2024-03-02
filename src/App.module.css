@@ -1,0 +1,143 @@
+.main-title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-wrapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 70px 20px 70px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    background: white;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+
+.search-wrapp {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 8px;
+    background: linear-gradient(118deg,#7367F0,rgba(115,103,240,.7));
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    box-shadow: 0 0 10px 1px rgba(115,103,240,.7);
+    font-weight: 500;
+    letter-spacing: 1px
+}
+
+button:hover {
+    transition: 0.7s;
+    transform: translateY(-0.25em)
+}
+
+.user-info {
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text{
+    display: block;
+    width: 200px;
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    p {
+        font-size: 15px;
+    }
+
+    .user-info {
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .search-wrapp {
+        gap: 20px;
+    }
+    p {
+        font-size: 13px;
+        word-break: break-all;
+    }
+    button {
+        width: 15%;
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    button {
+        width: 15%;
+    }
+    .search-wrapp {
+        gap: 20px;
+        align-items: center;
+    }
+    p{
+        font-size: 12px;
+        width: 100%;
+        height: 50px;
+    }
+    .user-info {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .user-info {
+        padding: 8px;
+    }
+    p {
+        font-size: 50%;
+    }
+    button {
+        padding: 5px;
+        font-size: 10%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    button {
+        width: 20%;
+        padding: 5px;
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .search-wrapp {
+        align-items: center;
+    }
+    button {
+        font-size: 5px;
+        width: 45px;
+        height: auto;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,36 @@
+.user-item-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 95%;
+    margin: 8px;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 10px 1px #DDD;
+    border: 1px solid grey;
+
+}
+
+p {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    text-align: left;
+}
+
+.user-item-info:hover {
+    background: linear-gradient(118deg,#7367F0,rgba(100,90,240,.7));
+    color: white;
+    opacity: 0.85;
+    transition: 0.9s;
+    transform: translateY(-0.25em)
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .user-item-info {
+        gap: 20px;
+    }
+}
